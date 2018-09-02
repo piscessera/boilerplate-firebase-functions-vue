@@ -1,0 +1,68 @@
+{
+    "extends": [
+      "tslint:recommended"
+    ],
+    "rules": {
+      "max-line-length": [
+        true,
+        140
+      ],
+      "member-ordering": [
+        true,
+        {
+          "order": [
+            "public-static-field",
+            "protected-static-field",
+            "private-static-field",
+            "public-instance-field",
+            "protected-instance-field",
+            "private-instance-field",
+            "constructor",
+            "public-static-method",
+            "protected-static-method",
+            "private-static-method",
+            "public-instance-method",
+            "protected-instance-method",
+            "private-instance-method"
+          ]
+        }
+      ],
+      "ordered-imports": [
+        false
+      ],
+      "quotemark": [
+        false
+      ],
+      "trailing-comma": [
+        false
+      ],
+      "triple-equals": [
+        false
+      ],
+      "typedef": [
+        true,
+        "call-signature",
+        "property-declaration",
+        "member-variable-declaration"
+      ],
+      "variable-name": [
+        true,
+        "ban-keywords",
+        "check-format",
+        "allow-leading-underscore",
+        "allow-pascal-case"
+      ],
+      "whitespace": [
+        true,
+        "check-branch",
+        "check-decl",
+        "check-operator",
+        "check-separator",
+        "check-type"
+      ],
+      "object-literal-key-quotes": [
+        true, 
+        "consistent"
+      ],
+    }
+  }
